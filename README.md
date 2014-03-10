@@ -13,8 +13,8 @@ $ mv /path/GeoLite2-City.mmdb /path/CodeIgniter/application/libraries/IPtoGeoloc
 ## Usage
 
 ```
-$this->load->library('IPtoGeoLocation/IP2GeoLocation');
-//$this->load->library('IPtoGeoLocation/IP2GeoLocation', array('db'=> '/tmp/GeoLite2-City.mmdb') );
+$this->load->library('IPtoGeolocation/IP2GeoLocation');
+//$this->load->library('IPtoGeolocation/IP2GeoLocation', array('db'=> '/tmp/GeoLite2-City.mmdb') );
 
 print_r($this->ip2geolocation->get($_SERVER['REMOTE_ADDR']);
 (
