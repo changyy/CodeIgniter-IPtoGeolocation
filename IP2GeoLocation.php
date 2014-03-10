@@ -4,7 +4,6 @@ class IP2GeoLocation {
 		
 	function __construct($params=NULL)
 	{
-		echo "__construct";
 		$base_dir = dirname( __FILE__ ).'/';
 		require_once( $base_dir.'MaxMind-DB-Reader-php/src/MaxMind/Db/Reader.php' );
 		require_once( $base_dir.'MaxMind-DB-Reader-php/src/MaxMind/Db/Reader/Decoder.php' );
